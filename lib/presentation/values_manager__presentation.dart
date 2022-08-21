@@ -28,6 +28,7 @@ class AppSize {
   static double s_24 = 24;
   static double s_20 = 20;
   static double s_16 = 16;
+  static double s_12 = 12;
   static double s_8 = 8;
   static double s_4 = 4;
   static double s_2 = 2;

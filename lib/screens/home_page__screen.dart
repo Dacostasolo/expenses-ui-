@@ -1,3 +1,5 @@
+import 'package:expendature_firebase/components/custom_drawer_two__component.dart';
+
 import '../components/activity__component.dart';
 import '../components/activity_title__component.dart';
 
@@ -25,7 +27,7 @@ class HomePageScreen extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.only(top: AppSize.s_8),
       child: Scaffold(
-        drawer: CustomDrawer(),
+        drawer: CustomDrawerTwo(),
         body: SafeArea(
           child: SingleChildScrollView(
             child: Column(
